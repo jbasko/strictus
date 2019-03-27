@@ -24,6 +24,7 @@ setup(
     description="Strictus (a rewrite of Strictus Dictus)",
     keywords="nested schema dictionary attribute attrdict type hinting typing annotations",
     long_description=read("README.md"),
+    long_description_content_type='text/markdown',
     packages=["strictus"],
     python_requires=">=3.7.0",
     classifiers=[
