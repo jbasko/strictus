@@ -1,0 +1,9 @@
+-r requirements.txt
+
+flake8
+isort
+pygments
+pytest
+pytest-random-order
+twine
+
