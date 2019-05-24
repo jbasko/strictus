@@ -14,7 +14,7 @@ def read(fname):
 
 setup(
     name="strictus",
-    version="1.0.1",
+    version="1.0.2",
     url="https://github.com/jbasko/strictus",
     license="MIT",
     author="Jazeps Basko",
@@ -27,6 +27,9 @@ setup(
     long_description_content_type='text/markdown',
     packages=["strictus"],
     python_requires=">=3.7.0",
+    install_requires=[
+        'cached-property',
+    ],
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
